@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Colour Generator</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./all.min.css">
+    </head>
+    <body>
+
+        <div class="box">
+            <div class="top">
+                <span class="txt-area">#3d2304</span>
+                <span class="icon"><i class="fas fa-clone"></i></span>
+            </div>
+            <div class="inputs">
+                <div class="input">
+                    <span class="rgb">R</span><input type="range" value="0"
+                        max="255" class="r">
+                </div>
+                <div class="input">
+                    <span class="rgb">G</span><input type="range" value="0"
+                        max="255" class="g">
+                </div>
+                <div class="input">
+                    <span class="rgb">B</span><input type="range" value="0"
+                        max="255" class="b">
+                </div>
+
+            </div>
+
+            <div class="rgb-content">
+                rgb(62, 36, 4)
+            </div>
+            <button class="copy">
+                Copy
+            </button>
+
+
+        </div>
+
+
+        <script src="./all.min.js"></script>
+        <script src="./jquery.js"></script>
+        <script src="./main.js"></script>
+    </body>
+</html>
